@@ -88,8 +88,6 @@ Agora, sua API está pronta para ser usada. Você pode testar as rotas usando fe
   - Agora para acessar as outras rotas basta incluir no header (Authorization, Bearer OseuTokenVemAqui)
 
 ### Clientes (Necessário estar autenticado)
-primeiro fazer autenticação para pegar o token e enviar no header 
-'Authorization', `Bearer ${token}`
 
   Listar Clientes
       GET /clients - Lista todos os clientes cadastrados.
